@@ -8,12 +8,19 @@ bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/OpenAI-Checker/openai.sh)
 CPU型号
 cat /proc/cpuinfo
 
+
 docker钱
+
 curl -fsSL https://get.docker.com | bash
+
 AMD钱
+
 docker run -d --restart=always --name tm traffmonetizer/cli_v2 start accept --token wfMV1JZDNmE7QQNNfzRh/2PYSbSRZnx3Geqektdz9L4=
+
 ARM钱
+
 docker run -d --restart always --name tm traffmonetizer/cli_v2:arm64v8 start accept --token wfMV1JZDNmE7QQNNfzRh/2PYSbSRZnx3Geqektdz9L4= 
+
 
 Ubuntu更新纯净版
 apt update -y && apt full-upgrade -y && apt autoremove -y && apt autoclean -y
